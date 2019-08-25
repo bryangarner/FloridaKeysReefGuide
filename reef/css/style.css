@@ -35,7 +35,8 @@
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	background-color: gray;
 	color: white;
@@ -84,7 +85,8 @@ a:active {
 .leaflet-tooltip.keys-labels {
 	background-color: transparent;
 	border: transparent;
-	box-shadow: none;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
 	font-weight: bold;
 	font-size: 14px;
 	color: black;
@@ -93,7 +95,8 @@ a:active {
 .leaflet-tooltip.layer-labels {
 	background-color: transparent;
 	border: transparent;
-	box-shadow: none;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
 	font-weight: bold;
 	font-size: 0px;
 	color: black;
