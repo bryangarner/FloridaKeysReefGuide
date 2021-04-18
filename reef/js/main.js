@@ -11,9 +11,9 @@ var viewer = new PANOLENS.Viewer({
 	controlButtons: ['fullscreen']
 });
 var basemaps = [
-	L.tileLayer('https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png', {
+	L.tileLayer('https://tile.thunderforest.com/outdoors/{z}/{x}/{y}.png?apikey=dfa7a55f25fb41a3bc4e290db5c3745c', {
 		id: 'stadia_outdoors',
-		attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
+		attribution: '&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 		label: 'Map',
 		iconURL: './lib/leaflet-basemaps/basemap_thumb/map_background.jpg'
 	}),
