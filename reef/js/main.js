@@ -11,9 +11,9 @@ var viewer = new PANOLENS.Viewer({
 	controlButtons: ['fullscreen']
 });
 var basemaps = [
-	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-		id: 'mapbox.streets',
-		attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors &copy; <a href="http://mapbox.com">Mapbox</a>',
+	L.tileLayer('https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png', {
+		id: 'stadia_outdoors',
+		attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
 		label: 'Map',
 		iconURL: './lib/leaflet-basemaps/basemap_thumb/map_background.jpg'
 	}),
